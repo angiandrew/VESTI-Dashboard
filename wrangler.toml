@@ -1,12 +1,6 @@
 name = "vesti-dashboard"
 compatibility_date = "2025-04-03"
-
-[build]
-command = "npm run build"
 pages_build_output_dir = "dist"
-
-[site]
-bucket = "./dist"
 
 [env.production]
 routes = [
